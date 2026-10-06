@@ -6,14 +6,15 @@ This document contains research related to:
 
 - License status visibility
 - License health visibility
-- Expiration
+- License lifecycle states
+- Expiration awareness
 - Renewal readiness
 - Risk communication
 - Alerts and warnings
 - Health indicators
-- Portfolio health
 - Capacity risk
-- Action-needed states
+- Portfolio health visibility
+- Action-required states
 
 Research sources include:
 
@@ -28,42 +29,349 @@ Formal findings will be created as LICENSE-XXX files after validation across mul
 
 # Industry Research
 
-Research items from:
+# Research Item 201
 
-- Nielsen Norman Group (NNG)
-- Baymard Institute
-- Gartner
-- Forrester
-- Accessibility guidance
-- Enterprise UX research
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Visibility of System Status
+
+Observation:
+Users should always understand the current status of a system and what is happening within it.
+
+Translation to License Management:
+Customers should immediately understand:
+
+- Active
+- Expiring Soon
+- Expired
+- Pending Activation
+- Action Required
+
+Key Takeaway:
+License status should be visible and understandable without requiring customers to inspect detailed information.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/ten-usability-heuristics/
+
+---
+
+# Research Item 202
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Recognition and Decision Making
+
+Observation:
+Users make better decisions when important information is visible rather than requiring investigation.
+
+Translation to License Management:
+Risk indicators should be immediately visible.
+
+Examples:
+
+- Expires in 15 days
+- Activation Pending
+- No Available Seats
+- Renewal Required
+
+Key Takeaway:
+Important license risks should be surfaced proactively.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/recognition-and-recall/
+
+---
+
+# Research Item 203
+
+Source Type:
+Industry Research
+
+Source:
+Baymard Institute
+
+Topic:
+Status Communication
+
+Observation:
+Users perform tasks more efficiently when systems clearly communicate their current state and required actions.
+
+Translation to License Management:
+Status should not only communicate state but also recommended next steps.
+
+Examples:
+
+- Expires in 30 Days → Renew Now
+- No Available Seats → Purchase More Seats
+- Pending Activation → Activate License
+
+Key Takeaway:
+Pair license status with recommended actions.
+
+Confidence:
+Medium
+
+Sources:
+https://baymard.com
 
 ---
 
 # Competitive Benchmarking
 
-Research items from:
+# Research Item 204
 
-- Microsoft 365 Admin Center
-- Adobe Admin Console
-- Salesforce
-- Atlassian
-- VMware
-- Okta
-- Google Workspace
-- Other enterprise software ecosystems
+Source Type:
+Competitive Benchmark
+
+Source:
+Adobe Admin Console
+
+Topic:
+License Utilization Visibility
+
+Observation:
+Adobe surfaces assigned licenses, available licenses, and utilization information through a top-level Overview dashboard.
+
+Translation to License Management:
+Customers should understand portfolio health at a glance.
+
+Examples:
+
+- Total Licenses
+- Assigned
+- Available
+- Utilization Rate
+
+Key Takeaway:
+Health indicators should be visible before individual license management.
+
+Confidence:
+High
+
+Sources:
+https://helpx.adobe.com/business/enterprise/setup-onboarding/explore-adobe-admin-console/adobe-admin-console-overview.html
+
+---
+
+# Research Item 205
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft 365 Admin Center
+
+Topic:
+Assignment and Capacity Status
+
+Observation:
+Microsoft surfaces assignment status and capacity information throughout administrative workflows.
+
+Translation to License Management:
+Customers should understand:
+
+- Available Seats
+- Assigned Seats
+- Remaining Capacity
+
+without additional calculations.
+
+Key Takeaway:
+Capacity status should be continuously visible throughout the experience.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users
+
+---
+
+# Research Item 206
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Adobe Admin Console
+
+Topic:
+Portfolio Oversight
+
+Observation:
+Administrative dashboards provide portfolio-level visibility before exposing individual item management.
+
+Translation to License Management:
+Administrators should identify risk areas before investigating specific licenses.
+
+Key Takeaway:
+Surface portfolio health before license-level detail.
+
+Confidence:
+High
+
+Sources:
+https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview
 
 ---
 
 # Expert Patterns
 
-Research items derived from:
+# Research Item 301
 
-- Enterprise SaaS patterns
-- UX best practices
-- Accessibility best practices
-- Governance patterns
-- Administration workflows
-- Enterprise mental models
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise SaaS Administration
+
+Topic:
+License Health Models
+
+Observation:
+Administrators primarily manage risk rather than individual licenses.
+
+Common Health States:
+
+- Healthy
+- Needs Attention
+- At Risk
+- Critical
+
+Key Takeaway:
+Represent license health using meaningful states instead of raw data.
+
+Confidence:
+Medium
+
+---
+
+# Research Item 302
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Lifecycle Management
+
+Topic:
+Expiration
+
+Observation:
+Expiration dates alone rarely help customers understand business impact.
+
+Examples:
+
+Instead of:
+
+- Expires in 30 Days
+
+Provide:
+
+- Expires in 30 Days
+- New assignments will be blocked
+- Product access may be interrupted
+
+Key Takeaway:
+Communicate consequences in addition to expiration dates.
+
+Confidence:
+Medium
+
+---
+
+# Research Item 303
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Governance
+
+Topic:
+Risk Visibility
+
+Observation:
+Administrators frequently overlook issues when warnings are buried within detail pages.
+
+Key Takeaway:
+Place critical status information at both portfolio level and license level.
+
+Confidence:
+Medium
+
+---
+
+# Research Item 304
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise SaaS Operations
+
+Topic:
+Attention Management
+
+Observation:
+Customers often visit license management experiences because something requires attention.
+
+Examples:
+
+- Expiring Licenses
+- Pending Activations
+- Full Capacity
+- Unassigned Purchases
+
+Key Takeaway:
+Prioritize attention-required items at the top of the experience.
+
+Confidence:
+High
+
+---
+
+# Research Item 305
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Capacity Management
+
+Topic:
+Capacity Risk
+
+Observation:
+Capacity exhaustion is one of the most important operational risks for administrators.
+
+Key Questions:
+
+- How many licenses remain?
+- When will capacity be exhausted?
+- Which products are at risk?
+
+Key Takeaway:
+Expose capacity risk before assignment failure occurs.
+
+Confidence:
+High
 
 ---
 
@@ -71,16 +379,22 @@ Research items derived from:
 
 Recurring themes observed across industry research, competitive benchmarks, and expert patterns:
 
-1.
+1. License status should be immediately visible.
 
-2.
+2. Status should use customer-friendly language rather than technical system terminology.
 
-3.
+3. Health indicators are more useful than raw technical data.
 
-4.
+4. Portfolio health is often more important than individual license health.
 
-5.
+5. Risk should be surfaced proactively rather than discovered reactively.
 
-6.
+6. Capacity and utilization are core health indicators.
 
-7.
+7. Expiration should communicate business impact, not just dates.
+
+8. Administrators need clear attention states to prioritize action.
+
+9. Health signals should appear at both portfolio level and license level.
+
+10. Every health indicator should be paired with a recommended next action.
