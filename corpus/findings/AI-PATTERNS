@@ -1,0 +1,671 @@
+# AI Patterns Research
+
+## Scope
+
+This document contains research related to:
+
+- Virtual assistants
+- Conversational AI
+- AI copilots
+- Agentic experiences
+- AI transparency
+- AI trust and explainability
+- Human oversight
+- Context awareness
+- Personalized assistance
+- AI recommendations
+- AI governance
+- Confidence and uncertainty
+- AI decision support
+- Conversational guidance
+- Enterprise AI workflows
+
+Research sources include:
+
+- Industry research
+- Competitive benchmarking
+- Expert patterns
+
+This document does not contain formal findings.
+Formal findings will be created as AI-XXX files after validation across multiple sources.
+
+---
+
+# Industry Research
+
+# Research Item 1201
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Explainable AI
+
+Observation:
+Users increasingly rely on AI outputs to make decisions. Explanations help users understand outputs, calibrate trust, and determine whether an AI response should be trusted.
+
+Translation to Enterprise Experiences:
+
+When AI explains:
+
+- Why a recommendation was made
+- Why a problem occurred
+- Why a license is expiring
+- Why a user lacks access
+
+users make better decisions.
+
+Key Takeaway:
+
+AI should explain recommendations and decisions rather than simply providing answers.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/explainable-ai/
+
+---
+
+# Research Item 1202
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Chatbot Limitations
+
+Observation:
+Chatbots perform best when helping users complete focused tasks and often struggle when conversations become complex, procedural, or highly administrative.
+
+Translation to Enterprise Experiences:
+
+Simple Tasks:
+
+- Find information
+- Explain status
+- Answer questions
+
+Complex Tasks:
+
+- Bulk updates
+- Multi-step workflows
+- Administrative processes
+
+require additional interaction models.
+
+Key Takeaway:
+
+Conversation is most effective for guidance and discovery, not complex administration.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/chatbots/
+
+---
+
+# Research Item 1203
+
+Source Type:
+Industry Research
+
+Source:
+Google PAIR Guidebook
+
+Topic:
+Trust and Explanations
+
+Observation:
+Users need explanations, controls, and visibility into AI reasoning to develop appropriate trust.
+
+Translation to Enterprise Experiences:
+
+AI recommendations should provide:
+
+- Reasoning
+- Context
+- Supporting evidence
+- Recommended action
+
+Key Takeaway:
+
+Trust increases when users understand why AI generated a response.
+
+Confidence:
+High
+
+Sources:
+https://pair.withgoogle.com/guidebook/
+
+---
+
+# Competitive Benchmarking
+
+# Research Item 1204
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft Copilot
+
+Topic:
+Transparency
+
+Observation:
+Users should understand when AI is being used, how it operates, and why outputs are generated.
+
+Translation to Enterprise Experiences:
+
+Customers should understand:
+
+- Why recommendations are being made
+- What information was used
+- What action may occur
+
+Key Takeaway:
+
+AI actions should never feel hidden or mysterious.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai
+
+---
+
+# Research Item 1205
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft Copilot
+
+Topic:
+Human Oversight
+
+Observation:
+Responsible AI experiences require transparency, accountability, and clear user control.
+
+Translation to Enterprise Experiences:
+
+Users should be able to:
+
+- Approve actions
+- Reject actions
+- Modify recommendations
+
+Key Takeaway:
+
+Users should remain in control of final decisions and execution.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai
+
+---
+
+# Research Item 1206
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Google Conversation Design
+
+Topic:
+Goal-Based Interactions
+
+Observation:
+Conversation systems are most effective when helping users reach a goal and then guiding them into appropriate workflows.
+
+Translation to Enterprise Experiences:
+
+Examples:
+
+Stay Conversational:
+
+- Find my software licenses
+- Show expiring subscriptions
+- Explain a product
+
+Move Beyond Conversation:
+
+- Add users
+- Renew licenses
+- Transfer ownership
+- Export reports
+
+Key Takeaway:
+
+Conversation should guide users toward successful task completion.
+
+Confidence:
+High
+
+Sources:
+https://developers.google.com/assistant/conversation-design/welcome
+
+---
+
+# Expert Patterns
+
+# Research Item 1301
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Copilot Patterns
+
+Topic:
+Decision Support
+
+Observation:
+Users frequently seek understanding before taking action.
+
+Examples:
+
+- Why is this happening?
+- What should I do next?
+- What are my options?
+
+Key Takeaway:
+
+AI should function as a decision-support tool, not solely an execution engine.
+
+Confidence:
+High
+
+---
+
+# Research Item 1302
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Assistance
+
+Topic:
+Progressive Guidance
+
+Observation:
+Users often begin with vague questions and gradually progress toward action.
+
+Examples:
+
+User:
+
+"I need help managing users."
+
+AI:
+
+Explains process
+→ Clarifies needs
+→ Guides toward workflow
+
+Key Takeaway:
+
+AI should progressively guide users from uncertainty toward action.
+
+Confidence:
+High
+
+---
+
+# Research Item 1303
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Administration
+
+Topic:
+Context Preservation
+
+Observation:
+Users should not be required to repeat information throughout a workflow.
+
+Examples:
+
+- Current account
+- Organization
+- Product
+- Prior selections
+
+should remain available throughout the interaction.
+
+Key Takeaway:
+
+Context should persist across the user journey.
+
+Confidence:
+High
+
+---
+
+# Research Item 1304
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Governance
+
+Topic:
+Action Safety
+
+Observation:
+Enterprise actions can have financial, operational, or security consequences.
+
+Examples:
+
+- User creation
+- License assignment
+- License removal
+- Subscription purchases
+
+Key Takeaway:
+
+Important actions should be reviewed before execution.
+
+Confidence:
+High
+
+---
+
+# Research Item 1305
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI UX
+
+Topic:
+Confidence and Uncertainty
+
+Observation:
+AI responses often appear more certain than the supporting evidence warrants.
+
+Examples:
+
+Instead of:
+
+"Sarah cannot access VMware."
+
+Provide:
+
+"Sarah may not have an assigned seat based on current account information."
+
+Key Takeaway:
+
+AI should communicate uncertainty when confidence is low.
+
+Confidence:
+High
+
+---
+
+# Research Item 1306
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Assistants
+
+Topic:
+Context Awareness
+
+Observation:
+Users become frustrated when AI requests information already available within the system.
+
+Examples:
+
+- Current organization
+- Current account
+- User role
+- Product ownership
+- License inventory
+
+Key Takeaway:
+
+AI should leverage available system context before asking users for information.
+
+Confidence:
+High
+
+---
+
+# Research Item 1307
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Personalization
+
+Topic:
+Personalized Assistance
+
+Observation:
+Users expect AI systems to remember recent activity and provide increasingly relevant guidance.
+
+Examples:
+
+- Recently viewed products
+- Prior conversations
+- Common workflows
+- Frequent administrative actions
+
+Key Takeaway:
+
+AI should personalize recommendations when sufficient context exists.
+
+Confidence:
+Medium
+
+---
+
+# Research Item 1308
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Agents
+
+Topic:
+Proactive Recommendations
+
+Observation:
+Users increasingly expect AI systems to identify issues and opportunities before being asked.
+
+Examples:
+
+- Expiring licenses
+- Unused subscriptions
+- Seat shortages
+- Risk conditions
+- Optimization opportunities
+
+Key Takeaway:
+
+AI should proactively surface important insights and recommendations.
+
+Confidence:
+High
+
+---
+
+# Research Item 1309
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Operations
+
+Topic:
+Failure Recovery
+
+Observation:
+AI systems occasionally lack information, permissions, or confidence to complete tasks.
+
+Examples:
+
+- Missing data
+- Service failures
+- Insufficient permissions
+- Incomplete account setup
+
+Key Takeaway:
+
+AI should explain why a task cannot be completed and propose the next best action.
+
+Confidence:
+High
+
+---
+
+# Research Item 1310
+
+Source Type:
+Expert Pattern
+
+Source:
+Explainable AI
+
+Topic:
+Source Visibility
+
+Observation:
+Users develop stronger trust when they understand which systems and data sources informed a recommendation.
+
+Examples:
+
+Based On:
+
+- Purchase History
+- License Inventory
+- User Directory
+- Account Data
+- Contract Information
+
+Key Takeaway:
+
+AI should expose relevant sources and supporting information.
+
+Confidence:
+High
+
+---
+
+# Research Item 1311
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Governance
+
+Topic:
+Auditability
+
+Observation:
+Enterprise customers require transparency into what actions occurred, who approved them, and when they were executed.
+
+Examples:
+
+- Approval History
+- Action History
+- User Attribution
+
+Key Takeaway:
+
+AI-assisted actions must be traceable and auditable.
+
+Confidence:
+High
+
+---
+
+# Research Item 1312
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Accessibility
+
+Topic:
+Adaptive Interaction Models
+
+Observation:
+Different tasks benefit from different interaction models.
+
+Examples:
+
+- Chat
+- Tables
+- Forms
+- Dashboards
+- Guided Workflows
+
+Key Takeaway:
+
+Not every AI interaction should be conversational; interaction models should adapt to task complexity.
+
+Confidence:
+High
+
+---
+
+# AI Patterns Research Summary
+
+Recurring themes observed across industry research, competitive benchmarks, and expert patterns:
+
+1. AI should explain recommendations, not simply provide answers.
+
+2. AI reasoning should be visible and understandable.
+
+3. Trust increases when users understand why recommendations were generated.
+
+4. Users should remain in control of final decisions and approvals.
+
+5. AI should communicate uncertainty when confidence is low.
+
+6. AI should leverage known context before requesting information from users.
+
+7. AI should personalize guidance when sufficient context exists.
+
+8. AI should proactively identify risks and opportunities.
+
+9. AI should explain failures and provide recovery paths.
+
+10. AI should disclose the sources and data used to generate recommendations.
+
+11. AI-assisted actions should be auditable and governable.
+
+12. AI should support decision-making rather than blindly executing actions.
+
+13. AI should progressively guide users from discovery to action.
+
+14. Context should remain preserved throughout the experience.
+
+15. Interaction models should adapt to task complexity and user goals.
