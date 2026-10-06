@@ -5,6 +5,156 @@ Research Backlog
 Purpose:
 Store raw observations before promotion into official findings.
 
+# Software License Research Backlog
+
+## Purpose
+
+This file contains raw research observations gathered from industry research, competitive benchmarking, expert patterns, and future Dell research.
+
+Observations are promoted into official LICENSE-XXX findings only after validation through multiple sources.
+
+---
+
+# Research Coverage
+
+## Completed
+
+### Discovery & Orientation
+Status: In Progress
+
+Research Topics:
+- Product discovery
+- Recognition vs recall
+- Product-centric navigation
+- Terminology
+- Dashboard orientation
+- Portfolio visibility
+
+Research Items:
+- 001
+- 002
+- 003
+- 004
+- 005
+- 006
+- 101
+
+---
+
+### Ownership & Context
+Status: In Progress
+
+Research Topics:
+- Organization visibility
+- Ownership
+- Administration
+- Provenance
+
+Research Items:
+- 006
+- 103
+- 106
+
+---
+
+### Capacity & Utilization
+Status: In Progress
+
+Research Topics:
+- License consumption
+- Available capacity
+- Assigned capacity
+
+Research Items:
+- 004
+- 104
+
+---
+
+## Planned Research Areas
+
+### License Status & Health
+Status: Not Started
+
+Topics:
+- Active
+- Expiring
+- Expired
+- Risk
+- Health indicators
+- Alerting
+
+---
+
+### Activation
+Status: Not Started
+
+Topics:
+- Activation flows
+- Downloads
+- Setup
+- Provisioning
+- First-use experiences
+
+---
+
+### Assignment & Access Management
+Status: Not Started
+
+Topics:
+- User assignment
+- Seat assignment
+- Group assignment
+- Role management
+- Access removal
+
+---
+
+### Renewal & Lifecycle
+Status: Not Started
+
+Topics:
+- Renewal
+- Expiration
+- Pricing
+- Impact of expiration
+- Contract lifecycle
+
+---
+
+### Troubleshooting
+Status: Not Started
+
+Topics:
+- Missing licenses
+- Failed activations
+- Access issues
+- Entitlement issues
+
+---
+
+### AI & Virtual Assistant Patterns
+Status: Not Started
+
+Topics:
+- AI summaries
+- AI troubleshooting
+- License recommendations
+- Conversational license management
+
+---
+
+### Dell Research
+Status: Future
+
+Topics:
+- VoC
+- CSAT
+- DSAT
+- User interviews
+- Support tickets
+- Usability studies
+
 Promotion Rule:
 A finding becomes LICENSE-XXX only when:
 
