@@ -1,0 +1,543 @@
+# Software License Troubleshooting Research
+
+## Scope
+
+This document contains research related to:
+
+- Missing licenses
+- License discovery failures
+- Download issues
+- Registration issues
+- Activation failures
+- Entitlement visibility issues
+- User confusion
+- Error diagnosis
+- Guided troubleshooting
+- Root cause analysis
+- Recovery workflows
+- Support escalation
+- Self-service resolution
+
+Research sources include:
+
+- Industry research
+- Competitive benchmarking
+- Expert patterns
+
+This document does not contain formal findings.
+Formal findings will be created as LICENSE-TROUBLESHOOTING-XXX files after validation across multiple sources.
+
+---
+
+# Industry Research
+
+# Research Item 1801
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Error Recovery
+
+Observation:
+
+Users are more successful when systems help them recognize, diagnose, and recover from errors.
+
+Translation to License Management:
+
+Customers should understand:
+
+- What happened
+- Why it happened
+- What can be done next
+
+Key Takeaway:
+
+Error messages should provide diagnosis and recovery guidance.
+
+Confidence:
+High
+
+---
+
+# Research Item 1802
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Visibility of System Status
+
+Observation:
+
+Users require visibility into system status to understand whether a process completed successfully.
+
+Translation to License Management:
+
+Examples:
+
+- Registration Pending
+- Provisioning In Progress
+- Awaiting Verification
+- License Available
+
+Key Takeaway:
+
+Customers should understand the current state of license fulfillment.
+
+Confidence:
+High
+
+---
+
+# Research Item 1803
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+User Language
+
+Observation:
+
+Users understand issues more quickly when language reflects customer terminology rather than internal system terminology.
+
+Translation to License Management:
+
+Instead of:
+
+- Entitlement Sync Failure
+
+Use:
+
+- Your software has not yet been linked to your account.
+
+Key Takeaway:
+
+Troubleshooting language should be customer-focused.
+
+Confidence:
+High
+
+---
+
+# Competitive Benchmarking
+
+# Research Item 1804
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft 365 Admin Center
+
+Topic:
+Diagnostic Experiences
+
+Observation:
+
+Administrative tools increasingly guide users through diagnosis before requiring support engagement.
+
+Translation to License Management:
+
+Systems should help identify:
+
+- Missing assignments
+- Missing access
+- Missing permissions
+- Configuration issues
+
+Key Takeaway:
+
+Diagnosis should happen before escalation.
+
+Confidence:
+High
+
+---
+
+# Research Item 1805
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Adobe Admin Console
+
+Topic:
+Self-Service Resolution
+
+Observation:
+
+Administrative experiences reduce support burden when customers can identify and resolve common issues independently.
+
+Translation to License Management:
+
+Examples:
+
+- Missing user assignment
+- Activation not complete
+- Insufficient permissions
+
+Key Takeaway:
+
+Prioritize self-service resolution of common problems.
+
+Confidence:
+High
+
+---
+
+# Research Item 1806
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Enterprise Support Platforms
+
+Topic:
+Guided Issue Resolution
+
+Observation:
+
+Successful troubleshooting experiences guide customers through root-cause analysis instead of presenting generic failures.
+
+Translation to License Management:
+
+Customer Question:
+
+"Why can't I see my software?"
+
+System Response:
+
+- Check Registration
+- Check Ownership
+- Check Email Association
+- Check Provisioning Status
+
+Key Takeaway:
+
+Troubleshooting should be structured around root-cause discovery.
+
+Confidence:
+High
+
+---
+
+# Expert Patterns
+
+# Research Item 1901
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise License Administration
+
+Topic:
+Missing License
+
+Observation:
+
+The most common customer troubleshooting question is:
+
+"Where is my software?"
+
+Common Causes:
+
+- Registration incomplete
+- Wrong email linkage
+- Ownership mismatch
+- Provisioning delay
+- Portal visibility disabled
+
+Key Takeaway:
+
+Missing software should trigger guided diagnosis.
+
+Confidence:
+High
+
+---
+
+# Research Item 1902
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise License Services
+
+Topic:
+Download Issues
+
+Observation:
+
+Customers often believe software is unavailable when the actual issue involves downloads, permissions, or entitlement visibility.
+
+Key Takeaway:
+
+Distinguish between ownership problems and download problems.
+
+Confidence:
+High
+
+---
+
+# Research Item 1903
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Support Design
+
+Topic:
+Root Cause Visibility
+
+Observation:
+
+Customers become significantly less frustrated when systems explain the root cause of a problem.
+
+Examples:
+
+Instead of:
+
+"Software unavailable."
+
+Use:
+
+"Your registration is still pending."
+
+Key Takeaway:
+
+Always reveal the identified root cause when confidence is high.
+
+Confidence:
+High
+
+---
+
+# Research Item 1904
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Workflow Design
+
+Topic:
+Progressive Diagnosis
+
+Observation:
+
+Customers often start with symptoms rather than causes.
+
+Example:
+
+User:
+
+"I can't find my software."
+
+System:
+
+Diagnose
+↓
+Identify Cause
+↓
+Recommend Fix
+
+Key Takeaway:
+
+Troubleshooting should begin with symptoms and lead toward diagnosis.
+
+Confidence:
+High
+
+---
+
+# Research Item 1905
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Automation
+
+Topic:
+Auto-Healing
+
+Observation:
+
+Many license issues can be resolved automatically.
+
+Examples:
+
+- Resend registration email
+- Trigger entitlement refresh
+- Reprocess provisioning
+- Repair account linkage
+- Create missing access groups
+
+Key Takeaway:
+
+Safe fixes should be automated when possible.
+
+Confidence:
+High
+
+---
+
+# Research Item 1906
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Recovery Design
+
+Topic:
+Resolution Confidence
+
+Observation:
+
+Troubleshooting experiences should communicate solution confidence.
+
+Examples:
+
+High Confidence:
+
+"We identified the issue."
+
+Low Confidence:
+
+"We found several possible causes."
+
+Key Takeaway:
+
+Communicate confidence levels during diagnosis.
+
+Confidence:
+High
+
+---
+
+# Research Item 1907
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Assistants
+
+Topic:
+Information Collection
+
+Observation:
+
+Diagnostics are most effective when the assistant gathers unique identifiers.
+
+Examples:
+
+- Order Number
+- Service Tag
+- Entitlement ID
+- License Authorization Code
+- Email Address
+
+Key Takeaway:
+
+Collect only the minimum information required for diagnosis.
+
+Confidence:
+High
+
+---
+
+# Research Item 1908
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Recovery Journeys
+
+Topic:
+Escalation Readiness
+
+Observation:
+
+Escalation should happen only after relevant diagnosis and remediation opportunities have been exhausted.
+
+Examples:
+
+Diagnose
+↓
+Fix
+↓
+Verify
+↓
+Escalate
+
+Key Takeaway:
+
+Escalation should be the final recovery step.
+
+Confidence:
+High
+
+---
+
+# Troubleshooting Research Summary
+
+Recurring themes observed across industry research, competitive benchmarks, and expert patterns:
+
+1. Customers should understand what happened and why.
+
+2. Troubleshooting should begin with symptoms and progress toward diagnosis.
+
+3. Root causes should be clearly communicated.
+
+4. Customer-friendly language should replace system terminology.
+
+5. Systems should gather minimal information necessary for diagnosis.
+
+6. Diagnosis should occur before escalation.
+
+7. Self-service resolution should be prioritized.
+
+8. Safe recovery actions should be automated whenever possible.
+
+9. Confidence should be communicated throughout troubleshooting.
+
+10. Missing software should trigger structured root-cause analysis.
+
+11. Download issues and ownership issues should be treated separately.
+
+12. The ideal troubleshooting pattern is:
+
+Identify Problem
+↓
+Gather Context
+↓
+Diagnose
+↓
+Explain Root Cause
+↓
+Auto-Heal
+↓
+Verify Resolution
+↓
+Escalate If Required
+↓
+Transfer Context
