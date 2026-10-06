@@ -1,0 +1,636 @@
+# AI Canvas Handoff Research
+
+## Scope
+
+This document contains research related to:
+
+- Chat-to-canvas transitions
+- AI workflow initiation
+- Canvas invocation
+- Task complexity thresholds
+- Context transfer
+- Workflow orchestration
+- AI-assisted task completion
+- Review and approval patterns
+- Multi-step workflows
+- Human oversight during execution
+- Enterprise workflow experiences
+- Agent-to-work surface interactions
+
+Research sources include:
+
+- Industry research
+- Competitive benchmarking
+- Expert patterns
+
+This document does not contain formal findings.
+Formal findings will be created as AI-CANVAS-XXX files after validation across multiple sources.
+
+---
+
+# Industry Research
+
+# Research Item 1401
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Chatbot Limitations
+
+Observation:
+Conversational interfaces become less effective as workflows become longer, more procedural, or require significant information review.
+
+Translation to Enterprise Experiences:
+
+Chat works well for:
+
+- Asking questions
+- Exploring options
+- Understanding information
+
+Chat becomes less effective for:
+
+- Reviewing large datasets
+- Multi-step administration
+- Configuration workflows
+- Bulk actions
+
+Key Takeaway:
+
+Conversation should support discovery, while structured interfaces should support execution.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/chatbots/
+
+---
+
+# Research Item 1402
+
+Source Type:
+Industry Research
+
+Source:
+Google PAIR Guidebook
+
+Topic:
+Human-AI Collaboration
+
+Observation:
+Users build trust more effectively when AI collaborates throughout a workflow rather than attempting to complete everything conversationally.
+
+Translation to Enterprise Experiences:
+
+AI should:
+
+- Explain
+- Guide
+- Assist
+
+while allowing the user to review and make decisions.
+
+Key Takeaway:
+
+AI should collaborate with users rather than replace workflow interfaces.
+
+Confidence:
+High
+
+Sources:
+https://pair.withgoogle.com/guidebook/
+
+---
+
+# Research Item 1403
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Cognitive Load
+
+Observation:
+Users struggle when they must retain large amounts of information within conversational interactions.
+
+Translation to Enterprise Experiences:
+
+Tasks involving:
+
+- Multiple users
+- Many licenses
+- Large comparisons
+- Form completion
+
+benefit from visual workspaces.
+
+Key Takeaway:
+
+Canvas experiences reduce cognitive load during complex workflows.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/recognition-and-recall/
+
+---
+
+# Competitive Benchmarking
+
+# Research Item 1404
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft Copilot
+
+Topic:
+Work Surface Integration
+
+Observation:
+Modern AI assistants increasingly combine conversational interaction with document, application, or workspace experiences.
+
+Translation to Enterprise Experiences:
+
+Users begin in conversation and transition into execution environments.
+
+Key Takeaway:
+
+AI should use the most appropriate surface for the task instead of forcing all interactions into chat.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai
+
+---
+
+# Research Item 1405
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft Copilot
+
+Topic:
+Review Before Execution
+
+Observation:
+Users are more comfortable approving AI-generated changes when those changes are presented in a reviewable work surface.
+
+Translation to Enterprise Experiences:
+
+Examples:
+
+- User creation
+- License assignment
+- Renewals
+- Configuration changes
+
+should be reviewed before execution.
+
+Key Takeaway:
+
+Canvas should function as a review layer before significant actions occur.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai
+
+---
+
+# Research Item 1406
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Google Workspace AI
+
+Topic:
+AI Assisted Editing
+
+Observation:
+AI-generated outputs become easier to understand when represented within editable workspaces instead of conversational threads.
+
+Translation to Enterprise Experiences:
+
+Users should be able to:
+
+- Review
+- Modify
+- Approve
+
+before action.
+
+Key Takeaway:
+
+Editable workspaces improve user understanding and control.
+
+Confidence:
+High
+
+Sources:
+https://pair.withgoogle.com/guidebook/
+
+---
+
+# Expert Patterns
+
+# Research Item 1501
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Workflow Design
+
+Topic:
+When To Stay In Chat
+
+Observation:
+Users prefer conversational interaction when gathering information or exploring options.
+
+Examples:
+
+- What licenses do I own?
+- Why is this expiring?
+- Who owns this subscription?
+- Explain seat usage
+
+Key Takeaway:
+
+Use chat for discovery, questions, explanations, and recommendations.
+
+Confidence:
+High
+
+---
+
+# Research Item 1502
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Workflow Design
+
+Topic:
+When To Open Canvas
+
+Observation:
+Users benefit from structured work surfaces when executing actions or reviewing large amounts of information.
+
+Examples:
+
+- Assign licenses
+- Add users
+- Bulk actions
+- Renew subscriptions
+- Compare products
+
+Key Takeaway:
+
+Open canvas for execution, review, configuration, and multi-step processes.
+
+Confidence:
+High
+
+---
+
+# Research Item 1503
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Administration
+
+Topic:
+Context Transfer
+
+Observation:
+Users should never need to repeat information when transitioning from AI conversation into workflow experiences.
+
+Examples:
+
+User says:
+
+"Assign 20 users to Microsoft 365."
+
+Canvas opens with:
+
+- Product selected
+- User workflow loaded
+- Context preserved
+
+Key Takeaway:
+
+Context should transfer automatically between AI and Canvas.
+
+Confidence:
+High
+
+---
+
+# Research Item 1504
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI UX
+
+Topic:
+Workflow Prefill
+
+Observation:
+AI-generated workflows are more successful when forms and configurations are intelligently pre-populated.
+
+Examples:
+
+- Product selected
+- License selected
+- Organization selected
+- Renewal items identified
+
+Key Takeaway:
+
+Canvas should begin with AI-generated context instead of empty states.
+
+Confidence:
+High
+
+---
+
+# Research Item 1505
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Operations
+
+Topic:
+Review Before Commit
+
+Observation:
+Users want confidence before executing potentially impactful actions.
+
+Examples:
+
+Review:
+
+- Users being added
+- Licenses being assigned
+- Renewals being submitted
+- Permissions being modified
+
+Key Takeaway:
+
+Every major AI-assisted action should include a review stage.
+
+Confidence:
+High
+
+---
+
+# Research Item 1506
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Governance
+
+Topic:
+Execution Boundaries
+
+Observation:
+AI should not automatically perform high-impact actions without explicit user approval.
+
+Examples:
+
+- Purchases
+- Renewals
+- User deletion
+- License revocation
+- Permission modification
+
+Key Takeaway:
+
+AI should recommend actions and facilitate execution, but users should authorize final changes.
+
+Confidence:
+High
+
+---
+
+# Research Item 1507
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Workflow Design
+
+Topic:
+Progressive Escalation
+
+Observation:
+Users often start with questions and gradually move toward execution.
+
+Examples:
+
+Ask:
+"Do I have unused licenses?"
+
+↓
+
+Explore:
+"Show those licenses"
+
+↓
+
+Action:
+"Reassign those licenses"
+
+↓
+
+Canvas Opens
+
+Key Takeaway:
+
+Canvas invocation should feel like a natural progression rather than a separate experience.
+
+Confidence:
+High
+
+---
+
+# Research Item 1508
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Experience Design
+
+Topic:
+Return To Assistant
+
+Observation:
+After workflow completion, users frequently continue exploring related information.
+
+Examples:
+
+Canvas:
+User Assignment Complete
+
+↓
+
+Virtual Assistant:
+
+"Would you like to assign licenses as well?"
+
+Key Takeaway:
+
+Canvas completion should seamlessly return users into conversational guidance.
+
+Confidence:
+High
+
+---
+
+# Research Item 1509
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI UX
+
+Topic:
+Task Complexity Thresholds
+
+Observation:
+Certain characteristics consistently indicate when chat should transition to canvas.
+
+Indicators:
+
+- More than 3 workflow steps
+- Large data review
+- Multiple records
+- Form completion
+- Configuration tasks
+- Bulk operations
+- Approvals required
+
+Key Takeaway:
+
+Task complexity should trigger canvas invocation.
+
+Confidence:
+High
+
+---
+
+# Research Item 1510
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Agents
+
+Topic:
+Ideal Enterprise Workflow
+
+Observation:
+The most successful enterprise AI experiences combine conversational understanding with structured execution environments.
+
+Pattern:
+
+Ask
+↓
+Understand
+↓
+Recommend
+↓
+Open Canvas
+↓
+Review
+↓
+Execute
+↓
+Confirm
+↓
+Return To Assistant
+
+Key Takeaway:
+
+AI and Canvas should function as a single connected workflow ecosystem.
+
+Confidence:
+High
+
+---
+
+# AI Canvas Handoff Research Summary
+
+Recurring themes observed across industry research, competitive benchmarks, and expert patterns:
+
+1. Chat is best for discovery, understanding, recommendations, and guidance.
+
+2. Canvas is best for execution, review, configuration, and administration.
+
+3. Complex workflows should transition from chat into canvas.
+
+4. Task complexity should trigger canvas invocation.
+
+5. Context should transfer automatically between conversational and workflow experiences.
+
+6. Canvas should begin with AI-generated context and prefilled information.
+
+7. Significant actions should be reviewed before execution.
+
+8. Users should retain control over final decisions and approvals.
+
+9. Canvas invocation should feel like a natural continuation of the conversation.
+
+10. Workflow completion should seamlessly return users to conversational guidance.
+
+11. AI and Canvas should be treated as a single integrated experience.
+
+12. The ideal enterprise interaction pattern is:
+
+Ask
+↓
+Understand
+↓
+Recommend
+↓
+Open Canvas
+↓
+Review
+↓
+Execute
+↓
+Confirm
+↓
+Return To Assistant
+``
