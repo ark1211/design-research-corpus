@@ -46,7 +46,7 @@ Examples:
 - VMware vSphere
 - Dell APEX Backup Services
 
-Potential Finding:
+Key takeaway:
 Use product names as the primary discovery mechanism for software licenses.
 
 Confidence:
@@ -85,7 +85,7 @@ More easily than:
 - Provisioning Object
 - Service Plan
 
-Potential Finding:
+Key takeaway:
 Use customer language rather than entitlement language.
 
 Confidence:
@@ -118,7 +118,7 @@ A license landing page should help users understand:
 
 Before exposing complex management tools.
 
-Potential Finding:
+Key takeaway:
 License dashboards should prioritize orientation and understanding before task execution.
 
 Confidence:
@@ -153,7 +153,7 @@ Users should first see:
 
 Before reviewing individual licenses.
 
-Potential Finding:
+Key takeaway:
 Provide portfolio-level visibility before license-level visibility.
 
 Confidence:
@@ -190,7 +190,7 @@ Manage a User
 
 Both paths should be supported.
 
-Potential Finding:
+Key takeaway:
 Support both user-centric and product-centric license management journeys.
 
 Confidence:
@@ -223,7 +223,7 @@ Enterprise customers need visibility into:
 - Tenant
 - Business Unit
 
-Potential Finding:
+Key takeaway:
 Keep ownership and organization context visible at all times.
 
 Confidence:
@@ -274,7 +274,7 @@ License
 ↓
 Seat
 
-Potential Finding:
+Key takeaway:
 Expose software licenses through product-centric experiences rather than entitlement-centric experiences.
 
 Confidence:
@@ -303,7 +303,7 @@ Potential Health States:
 - At Risk
 - Critical
 
-Potential Finding:
+Key takeaway:
 Represent portfolio health before exposing individual license details.
 
 Confidence:
@@ -336,7 +336,7 @@ Administrator
 Used By:
 End User
 
-Potential Finding:
+Key takeaway:
 Explicitly surface ownership, administration, and usage as separate concepts.
 
 Confidence:
@@ -364,7 +364,7 @@ Key Questions:
 - How many are assigned?
 - How many remain?
 
-Potential Finding:
+Key takeaway:
 Always expose available capacity wherever assignments occur.
 
 Confidence:
