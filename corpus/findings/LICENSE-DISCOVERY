@@ -1,1 +1,421 @@
+# Software License Discovery Research
 
+## Scope
+
+This document contains research related to:
+
+- License discovery
+- License orientation
+- Product identification
+- Ownership visibility
+- Portfolio visibility
+- Organizational context
+- License capacity awareness
+
+Research sources include:
+
+- Industry research
+- Competitive benchmarking
+- Expert patterns
+
+This document does not contain formal findings.
+Formal findings will be created as LICENSE-XXX files after validation across multiple sources.
+
+---
+
+# Research Item 001
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+License Discovery
+
+Observation:
+Users perform better when interfaces support recognition rather than recall. Information should be visible and recognizable instead of requiring users to remember identifiers, codes, or navigation paths.
+
+Translation to License Management:
+Users should recognize product names rather than remember entitlement IDs, contract numbers, or SKUs.
+
+Examples:
+- Microsoft 365 Business Premium
+- VMware vSphere
+- Dell APEX Backup Services
+
+Potential Finding:
+Use product names as the primary discovery mechanism for software licenses.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/recognition-and-recall/
+https://www.nngroup.com/articles/ten-usability-heuristics/
+
+---
+
+# Research Item 002
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Terminology
+
+Observation:
+Interfaces should use terminology familiar to users rather than internal system terminology or organizational jargon.
+
+Translation to License Management:
+Users understand:
+- License
+- Subscription
+- Product
+- User
+
+More easily than:
+- Entitlement
+- Consumption Right
+- Provisioning Object
+- Service Plan
+
+Potential Finding:
+Use customer language rather than entitlement language.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/ten-usability-heuristics/
+
+---
+
+# Research Item 003
+
+Source Type:
+Industry Research
+
+Source:
+Baymard Institute
+
+Topic:
+Dashboard Orientation
+
+Observation:
+Users need contextual information and guidance to understand available account-related features and navigate effectively.
+
+Translation to License Management:
+A license landing page should help users understand:
+- What software they own
+- What is active
+- What needs attention
+
+Before exposing complex management tools.
+
+Potential Finding:
+License dashboards should prioritize orientation and understanding before task execution.
+
+Confidence:
+Medium
+
+Source:
+https://baymard.com/guidelines/3054-the-account-dashboard-page
+
+---
+
+# Research Item 004
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Adobe Admin Console
+
+Topic:
+Portfolio Visibility
+
+Observation:
+Adobe surfaces assigned licenses, available licenses, and utilization information through a top-level Overview dashboard.
+
+Translation to License Management:
+Users should first see:
+- Total Licenses
+- Assigned
+- Available
+- Needs Attention
+
+Before reviewing individual licenses.
+
+Potential Finding:
+Provide portfolio-level visibility before license-level visibility.
+
+Confidence:
+High
+
+Sources:
+https://helpx.adobe.com/business/enterprise/setup-onboarding/explore-adobe-admin-console/adobe-admin-console-overview.html
+https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview
+
+---
+
+# Research Item 005
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft 365 Admin Center
+
+Topic:
+Management Paths
+
+Observation:
+Microsoft supports both user-centric and product-centric license management workflows.
+
+Translation to License Management:
+Customers approach licenses from different mental models:
+
+Path A:
+Manage a Product
+
+Path B:
+Manage a User
+
+Both paths should be supported.
+
+Potential Finding:
+Support both user-centric and product-centric license management journeys.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users
+https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses
+
+---
+
+# Research Item 006
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Adobe Admin Console
+
+Topic:
+Organization Context
+
+Observation:
+Adobe consistently exposes organization context and organization switching because administrators often manage multiple organizations and license pools.
+
+Translation to License Management:
+Enterprise customers need visibility into:
+- Organization
+- Account
+- Tenant
+- Business Unit
+
+Potential Finding:
+Keep ownership and organization context visible at all times.
+
+Confidence:
+High
+
+Sources:
+https://helpx.adobe.com/business/enterprise/setup-onboarding/explore-adobe-admin-console/adobe-admin-console-overview.html
+https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview
+
+---
+# Tier 2 - Expert Patterns
+
+---
+
+# Research Item 101
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Software UX
+
+Topic:
+Mental Model
+
+Observation:
+Customers think about software licenses through products and outcomes rather than backend entitlement structures.
+
+Customer Mental Model:
+
+Product
+↓
+Can I use it?
+↓
+Who can use it?
+↓
+When does it expire?
+↓
+What should I do next?
+
+System Mental Model:
+
+Contract
+↓
+Entitlement
+↓
+Subscription
+↓
+License
+↓
+Seat
+
+Potential Finding:
+Expose software licenses through product-centric experiences rather than entitlement-centric experiences.
+
+Confidence:
+Medium
+
+---
+
+# Research Item 102
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise SaaS Administration
+
+Topic:
+License Health
+
+Observation:
+Administrators spend more time understanding risk and status than managing individual licenses.
+
+Potential Health States:
+
+- Healthy
+- Needs Attention
+- At Risk
+- Critical
+
+Potential Finding:
+Represent portfolio health before exposing individual license details.
+
+Confidence:
+Medium
+
+---
+
+# Research Item 103
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Administration Patterns
+
+Topic:
+Roles
+
+Observation:
+Ownership, administration, and usage are distinct concepts that are frequently confused.
+
+Examples:
+
+Owned By:
+Organization
+
+Managed By:
+Administrator
+
+Used By:
+End User
+
+Potential Finding:
+Explicitly surface ownership, administration, and usage as separate concepts.
+
+Confidence:
+Medium
+
+---
+
+# Research Item 104
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise SaaS Patterns
+
+Topic:
+Capacity Management
+
+Observation:
+Administrators constantly monitor purchased capacity versus assigned capacity.
+
+Key Questions:
+
+- How many licenses do we own?
+- How many are assigned?
+- How many remain?
+
+Potential Finding:
+Always expose available capacity wherever assignments occur.
+
+Confidence:
+High
+
+---
+
+# Research Item 105
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Lifecycle Management
+
+Topic:
+Expiration
+
+Observation:
+Expiration dates alone do not explain business impact.
+
+Potential Finding:
+Show consequences and impact of expiration instead of only expiration dates.
+
+Confidence:
+Medium
+
+---
+
+# Research Item 106
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Governance
+
+Topic:
+License Provenance
+
+Observation:
+Administrators frequently ask why a license appears in their account.
+
+Examples:
+
+- Assigned by administrator
+- Purchased under contract
+- Inherited from parent organization
+
+Potential Finding:
+Clearly explain license origin and ownership chain.
+
+Confidence:
+Medium
