@@ -1,0 +1,452 @@
+# Software License AI Patterns Research
+
+## Scope
+
+This document contains research related to:
+
+- Virtual assistants
+- Conversational AI
+- AI copilots
+- Agentic experiences
+- AI transparency
+- AI trust and explainability
+- AI task handoff
+- Chat-to-canvas transitions
+- Human oversight
+- Guided workflows
+- AI-assisted license management
+
+Research sources include:
+
+- Industry research
+- Competitive benchmarking
+- Expert patterns
+
+This document does not contain formal findings.
+Formal findings will be created as LICENSE-XXX files after validation across multiple sources.
+
+---
+
+# Industry Research
+
+# Research Item 1201
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Explainable AI
+
+Observation:
+Users increasingly rely on AI outputs to make decisions. Explanations help users understand outputs, calibrate trust, and determine whether an AI response should be trusted.
+
+Translation to License Management:
+
+When AI explains:
+
+- Why a license is expiring
+- Why a user cannot access a product
+- Why a recommendation was made
+
+users make better decisions.
+
+Key Takeaway:
+
+AI should explain recommendations and actions rather than only providing answers.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/explainable-ai/
+
+---
+
+# Research Item 1202
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Chatbot Limitations
+
+Observation:
+Chatbots perform best when helping users complete focused tasks and often struggle when conversations become complex or highly procedural.
+
+Translation to License Management:
+
+Simple tasks:
+
+- Find license
+- Check expiration
+- Explain seat usage
+
+Complex tasks:
+
+- Bulk assignments
+- Renewal management
+- License audits
+
+should move beyond chat interaction.
+
+Key Takeaway:
+
+Complex administrative workflows should transition from conversation into structured experiences.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/chatbots/
+
+---
+
+# Research Item 1203
+
+Source Type:
+Industry Research
+
+Source:
+Google PAIR Guidebook
+
+Topic:
+Trust and Explanations
+
+Observation:
+Users need explanations, controls, and visibility into AI reasoning to develop appropriate trust.
+
+Translation to License Management:
+
+AI recommendations should provide:
+
+- Reason
+- Data source
+- Confidence
+- Recommended action
+
+Key Takeaway:
+
+Trust increases when AI reasoning is visible.
+
+Confidence:
+High
+
+Sources:
+https://pair.withgoogle.com/guidebook/
+
+---
+
+# Competitive Benchmarking
+
+# Research Item 1204
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft Copilot
+
+Topic:
+Transparency
+
+Observation:
+Microsoft recommends communicating when AI is being used, how it operates, and why outputs are generated.
+
+Translation to License Management:
+
+Customers should understand:
+
+- Why the AI made a recommendation
+- What data was used
+- What actions will occur
+
+Key Takeaway:
+
+AI actions should never feel hidden or mysterious.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai
+https://support.microsoft.com/en-us/privacy/microsoft-copilot/transparency-note
+
+---
+
+# Research Item 1205
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft Copilot
+
+Topic:
+Human Oversight
+
+Observation:
+Responsible AI experiences require transparency, accountability, and clear user control.
+
+Translation to License Management:
+
+Customers should be able to:
+
+- Approve
+- Reject
+- Modify
+
+AI recommendations.
+
+Key Takeaway:
+
+Users should remain in control of final license-management decisions.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai
+
+---
+
+# Research Item 1206
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Google Conversation Design
+
+Topic:
+Conversation and Task Completion
+
+Observation:
+Conversation interfaces work best when helping users progress toward goals and when they can gracefully hand users into the correct interface or workflow.
+
+Translation to License Management:
+
+Examples:
+
+- "Find my software licenses"
+- "Show expiring licenses"
+
+can stay in chat.
+
+Examples:
+
+- Bulk assign users
+- Transfer ownership
+- Purchase additional licenses
+
+should move to dedicated workflows.
+
+Key Takeaway:
+
+Conversation should be used for discovery and guidance, while execution should occur in work surfaces.
+
+Confidence:
+High
+
+Sources:
+https://developers.google.com/assistant/conversation-design/welcome
+
+---
+
+# Expert Patterns
+
+# Research Item 1301
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Copilot Patterns
+
+Topic:
+Chat vs Canvas
+
+Observation:
+Users prefer conversational interfaces for understanding problems and structured interfaces for solving them.
+
+Examples:
+
+Chat:
+
+- Why is this license expiring?
+- Show unused licenses.
+- Who owns this subscription?
+
+Canvas:
+
+- Assign users.
+- Edit license settings.
+- Renew subscriptions.
+- Export reports.
+
+Key Takeaway:
+
+AI should answer and explain in chat but execute in canvas.
+
+Confidence:
+High
+
+---
+
+# Research Item 1302
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Assistance
+
+Topic:
+Progressive Workflow Disclosure
+
+Observation:
+Users often begin with vague questions and then transition into structured tasks.
+
+Example:
+
+Chat:
+
+"I need help onboarding users."
+
+Canvas:
+
+User assignment workflow opens.
+
+Key Takeaway:
+
+AI should progressively move users from conversation to action.
+
+Confidence:
+High
+
+---
+
+# Research Item 1303
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Administration
+
+Topic:
+Task Handoff
+
+Observation:
+Users should not have to re-enter information when transitioning between AI and workflow experiences.
+
+Examples:
+
+Chat:
+"Add 10 users."
+
+Canvas opens with:
+- User workflow
+- Relevant fields prefilled
+- Context preserved
+
+Key Takeaway:
+
+Maintain context across AI-to-workflow transitions.
+
+Confidence:
+High
+
+---
+
+# Research Item 1304
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Governance
+
+Topic:
+Action Safety
+
+Observation:
+Administrative actions can have business impact.
+
+Examples:
+
+- License reassignment
+- Access removal
+- Purchase actions
+- Subscription changes
+
+Key Takeaway:
+
+AI should recommend actions but require review before execution.
+
+Confidence:
+High
+
+---
+
+# Research Item 1305
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI UX
+
+Topic:
+Confidence and Uncertainty
+
+Observation:
+AI responses can appear authoritative even when uncertainty exists.
+
+Examples:
+
+Instead of:
+
+"Sarah cannot access VMware."
+
+Provide:
+
+"Sarah may not have an assigned seat. Based on current account information, this appears to be the most likely cause."
+
+Key Takeaway:
+
+AI should communicate uncertainty when confidence is low.
+
+Confidence:
+High
+
+---
+
+# AI Patterns Research Summary
+
+Recurring themes observed across industry research, competitive benchmarks, and expert patterns:
+
+1. AI should explain recommendations, not just provide answers.
+
+2. AI reasoning should be visible to users.
+
+3. Conversation is best for discovery, guidance, and troubleshooting.
+
+4. Structured workflows are best for execution and administration.
+
+5. Complex tasks should transition from chat into canvas experiences.
+
+6. Context should be preserved during AI-to-canvas transitions.
+
+7. Users must retain approval and control over impactful actions.
+
+8. AI should clearly communicate uncertainty and confidence.
+
+9. Trust is built through transparency, explanation, and control.
+
+10. The ideal pattern is: Ask → Understand → Open Canvas → Review → Execute.
