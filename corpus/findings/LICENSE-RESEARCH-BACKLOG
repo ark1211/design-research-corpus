@@ -1,3 +1,25 @@
+# Status
+
+Research Backlog
+
+Purpose:
+Store raw observations before promotion into official findings.
+
+Promotion Rule:
+A finding becomes LICENSE-XXX only when:
+
+- Supported by multiple sources
+OR
+- Supported by Dell research
+OR
+- Supported by strong expert consensus
+
+Current Domain:
+Software Licenses
+
+Last Updated:
+2026-10-05
+---
 # Software License Research Backlog
 
 This file contains raw research observations gathered from industry research, enterprise software patterns, and expert reviews. Findings will be promoted into formal LICENSE-XXX files once validated across multiple sources.
