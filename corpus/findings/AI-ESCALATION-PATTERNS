@@ -1,0 +1,482 @@
+# AI Escalation Patterns Research
+
+## Scope
+
+This document contains research related to:
+
+- AI escalation
+- Human handoff
+- AI failure recovery
+- Low-confidence responses
+- Escalation triggers
+- Customer support transitions
+- Context preservation during handoff
+- Assisted resolution
+- Auto-healing workflows
+- AI-to-human collaboration
+- Enterprise support experiences
+
+Research sources include:
+
+- Industry research
+- Competitive benchmarking
+- Expert patterns
+
+This document does not contain formal findings.
+Formal findings will be created as AI-ESCALATION-XXX files after validation across multiple sources.
+
+---
+
+# Industry Research
+
+# Research Item 1601
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+AI Trust
+
+Observation:
+
+Users lose trust when AI pretends to know the answer but cannot solve the problem.
+
+Translation to Enterprise Experiences:
+
+Customers prefer honesty over false confidence.
+
+Examples:
+
+- "I don't have enough information."
+- "I could not verify the root cause."
+- "Let's connect you with support."
+
+Key Takeaway:
+
+AI should acknowledge uncertainty rather than provide unreliable guidance.
+
+Confidence:
+High
+
+---
+
+# Research Item 1602
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Explainable AI
+
+Observation:
+
+Users need visibility into why AI reached a conclusion and why escalation is occurring.
+
+Translation to Enterprise Experiences:
+
+Examples:
+
+- Problem identified
+- Fix attempted
+- Reason escalation is required
+
+Key Takeaway:
+
+AI should explain both successful and unsuccessful outcomes.
+
+Confidence:
+High
+
+Sources:
+https://www.nngroup.com/articles/explainable-ai/
+
+---
+
+# Research Item 1603
+
+Source Type:
+Industry Research
+
+Source:
+Google PAIR Guidebook
+
+Topic:
+Graceful Failure
+
+Observation:
+
+AI systems should support recovery and next steps when they cannot successfully complete a task.
+
+Translation to Enterprise Experiences:
+
+Customers should always know:
+
+- What happened
+- Why it happened
+- What happens next
+
+Key Takeaway:
+
+Failures should lead to guided recovery rather than dead ends.
+
+Confidence:
+High
+
+Sources:
+https://pair.withgoogle.com/guidebook/
+
+---
+
+# Competitive Benchmarking
+
+# Research Item 1604
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft Copilot
+
+Topic:
+Human Oversight
+
+Observation:
+
+Users should remain informed and in control when AI encounters limitations.
+
+Translation to Enterprise Experiences:
+
+Escalation should not feel abrupt or unexplained.
+
+Key Takeaway:
+
+Users should understand why human assistance is being recommended.
+
+Confidence:
+High
+
+Sources:
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai
+
+---
+
+# Research Item 1605
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Enterprise Support Systems
+
+Topic:
+Context Preservation
+
+Observation:
+
+Support experiences are significantly improved when context transfers automatically.
+
+Translation to Enterprise Experiences:
+
+Transferred Context:
+
+- Conversation history
+- Customer identifiers
+- Actions attempted
+- Errors found
+- Recommended next steps
+
+Key Takeaway:
+
+Customers should never need to repeat information after escalation.
+
+Confidence:
+High
+
+---
+
+# Research Item 1606
+
+Source Type:
+Competitive Benchmark
+
+Source:
+AI Service Experiences
+
+Topic:
+Assisted Resolution
+
+Observation:
+
+Customers prefer issue resolution over issue routing.
+
+Translation to Enterprise Experiences:
+
+Preferred:
+
+AI diagnoses issue
+↓
+AI fixes issue
+
+Instead of:
+
+AI identifies issue
+↓
+Immediately transfers to support
+
+Key Takeaway:
+
+AI should attempt safe remediation before escalation.
+
+Confidence:
+High
+
+---
+
+# Expert Patterns
+
+# Research Item 1701
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Support
+
+Topic:
+Escalation Triggers
+
+Observation:
+
+Common escalation triggers include:
+
+- Low confidence
+- Missing data
+- Authorization failures
+- Backend failures
+- Unsupported scenarios
+- Policy restrictions
+
+Key Takeaway:
+
+Escalation should be driven by defined trigger conditions.
+
+Confidence:
+High
+
+---
+
+# Research Item 1702
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Operations
+
+Topic:
+Auto-Healing
+
+Observation:
+
+Customers care about outcomes, not internal system complexity.
+
+Examples:
+
+- Resend registration email
+- Trigger reprocessing
+- Rebuild synchronization
+- Create missing group
+- Refresh entitlement mapping
+
+Key Takeaway:
+
+Auto-heal whenever resolution is low-risk and reversible.
+
+Confidence:
+High
+
+---
+
+# Research Item 1703
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Service Design
+
+Topic:
+Escalation Ladder
+
+Observation:
+
+Escalation should occur progressively.
+
+Pattern:
+
+Diagnose
+↓
+Recommend
+↓
+Attempt Fix
+↓
+Verify
+↓
+Escalate
+
+Key Takeaway:
+
+Escalation should be the final step, not the first step.
+
+Confidence:
+High
+
+---
+
+# Research Item 1704
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Customer Support
+
+Topic:
+Human Handoff
+
+Observation:
+
+Customers are most satisfied when escalations include prepared context and specific recommendations.
+
+Examples:
+
+Included:
+
+- Customer details
+- Problem summary
+- Root cause identified
+- Actions attempted
+
+Key Takeaway:
+
+Human agents should enter the interaction already informed.
+
+Confidence:
+High
+
+---
+
+# Research Item 1705
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Governance
+
+Topic:
+User Acknowledgement
+
+Observation:
+
+Customers should understand and approve impactful remediation actions.
+
+Examples:
+
+- Email transfer
+- Ownership changes
+- Entitlement modifications
+- License reassignment
+
+Key Takeaway:
+
+Obtain acknowledgement before executing impactful fixes.
+
+Confidence:
+High
+
+---
+
+# Research Item 1706
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise AI Experience Design
+
+Topic:
+Escalation Messaging
+
+Observation:
+
+Escalation messaging should reduce customer uncertainty.
+
+Examples:
+
+Instead of:
+
+"We cannot solve this issue."
+
+Provide:
+
+"I identified the issue, attempted the available fixes, and have prepared all details for a specialist who can continue assisting."
+
+Key Takeaway:
+
+Escalation messaging should emphasize continuity of support.
+
+Confidence:
+High
+
+---
+
+# AI Escalation Patterns Research Summary
+
+Recurring themes observed across industry research, competitive benchmarks, and expert patterns:
+
+1. AI should explain why escalation is needed.
+
+2. AI should communicate uncertainty honestly.
+
+3. Customers should never reach a dead end.
+
+4. AI should attempt safe remediation before escalation.
+
+5. Escalation should follow diagnosis, recommendation, and fix attempts.
+
+6. Context should transfer automatically during human handoff.
+
+7. Customers should not repeat information after escalation.
+
+8. Human agents should receive problem context and actions attempted.
+
+9. Impactful fixes should require customer acknowledgement.
+
+10. Escalation should feel like a continuation of assistance rather than a transfer.
+
+11. Auto-healing should be prioritized whenever risk is low and outcomes are reversible.
+
+12. The ideal support pattern is:
+
+Identify
+↓
+Diagnose
+↓
+Explain
+↓
+Auto-Heal
+↓
+Verify
+↓
+Escalate If Required
+↓
+Transfer Context
+↓
+Continue Resolution
