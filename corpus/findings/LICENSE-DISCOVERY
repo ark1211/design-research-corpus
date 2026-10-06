@@ -23,7 +23,8 @@ Formal findings will be created as LICENSE-XXX files after validation across mul
 
 ---
 
-# Research Item 001
+# Industry Research
+Research Item 001
 
 Source Type:
 Industry Research
@@ -57,7 +58,7 @@ https://www.nngroup.com/articles/ten-usability-heuristics/
 
 ---
 
-# Research Item 002
+Research Item 002
 
 Source Type:
 Industry Research
@@ -95,7 +96,7 @@ https://www.nngroup.com/articles/ten-usability-heuristics/
 
 ---
 
-# Research Item 003
+Research Item 003
 
 Source Type:
 Industry Research
@@ -128,7 +129,8 @@ https://baymard.com/guidelines/3054-the-account-dashboard-page
 
 ---
 
-# Research Item 004
+# Competitive Benchmark 
+Research Item 004
 
 Source Type:
 Competitive Benchmark
@@ -163,7 +165,7 @@ https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools
 
 ---
 
-# Research Item 005
+Research Item 005
 
 Source Type:
 Competitive Benchmark
@@ -200,7 +202,7 @@ https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licens
 
 ---
 
-# Research Item 006
+Research Item 006
 
 Source Type:
 Competitive Benchmark
@@ -232,11 +234,9 @@ https://helpx.adobe.com/business/enterprise/setup-onboarding/explore-adobe-admin
 https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview
 
 ---
-# Tier 2 - Expert Patterns
+# Expert Patterns
 
----
-
-# Research Item 101
+Research Item 101
 
 Source Type:
 Expert Pattern
@@ -282,7 +282,7 @@ Medium
 
 ---
 
-# Research Item 102
+Research Item 102
 
 Source Type:
 Expert Pattern
@@ -311,7 +311,7 @@ Medium
 
 ---
 
-# Research Item 103
+Research Item 103
 
 Source Type:
 Expert Pattern
@@ -344,7 +344,7 @@ Medium
 
 ---
 
-# Research Item 104
+Research Item 104
 
 Source Type:
 Expert Pattern
@@ -372,7 +372,7 @@ High
 
 ---
 
-# Research Item 105
+Research Item 105
 
 Source Type:
 Expert Pattern
@@ -386,7 +386,7 @@ Expiration
 Observation:
 Expiration dates alone do not explain business impact.
 
-Potential Finding:
+Key takeaway:
 Show consequences and impact of expiration instead of only expiration dates.
 
 Confidence:
@@ -394,7 +394,7 @@ Medium
 
 ---
 
-# Research Item 106
+Research Item 106
 
 Source Type:
 Expert Pattern
@@ -414,7 +414,7 @@ Examples:
 - Purchased under contract
 - Inherited from parent organization
 
-Potential Finding:
+Key takeaway:
 Clearly explain license origin and ownership chain.
 
 Confidence:
