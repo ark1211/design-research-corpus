@@ -1,0 +1,526 @@
+# Software License Activation Research
+
+## Scope
+
+This document contains research related to:
+
+- License activation
+- Product onboarding
+- Software entitlement activation
+- Activation workflows
+- First-use experiences
+- Registration flows
+- License claiming
+- Activation success verification
+- Activation troubleshooting
+- Activation status visibility
+- Guided setup
+- License adoption
+
+Research sources include:
+
+- Industry research
+- Competitive benchmarking
+- Expert patterns
+
+This document does not contain formal findings.
+Formal findings will be created as LICENSE-ACTIVATION-XXX files after validation across multiple sources.
+
+---
+
+# Industry Research
+
+# Research Item 2201
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Visibility of System Status
+
+Observation:
+
+Users need clear feedback regarding whether an activation process has started, is in progress, or has completed successfully.
+
+Translation to License Management:
+
+Customers should understand:
+
+- Activation Not Started
+- Activation In Progress
+- Activation Complete
+- Activation Failed
+
+Key Takeaway:
+
+Activation status should always be visible.
+
+Confidence:
+High
+
+---
+
+# Research Item 2202
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Progressive Disclosure
+
+Observation:
+
+Users perform better when only the information needed for the next step is presented.
+
+Translation to License Management:
+
+Activation flows should guide customers step-by-step instead of exposing all instructions at once.
+
+Key Takeaway:
+
+Activation should be guided and sequential.
+
+Confidence:
+High
+
+---
+
+# Research Item 2203
+
+Source Type:
+Industry Research
+
+Source:
+NNG
+
+Topic:
+Recognition Over Recall
+
+Observation:
+
+Users should not be expected to remember activation codes, instructions, or previous steps.
+
+Translation to License Management:
+
+Customers should be shown:
+
+- Activation status
+- Product information
+- Next required action
+
+without needing to remember previous communications.
+
+Key Takeaway:
+
+Minimize memory burden during activation.
+
+Confidence:
+High
+
+---
+
+# Competitive Benchmarking
+
+# Research Item 2204
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Microsoft 365
+
+Topic:
+Guided Activation
+
+Observation:
+
+Microsoft activation experiences guide customers through setup and clearly identify remaining actions.
+
+Translation to License Management:
+
+Examples:
+
+- Activate Subscription
+- Complete Setup
+- Assign Users
+- Start Using Product
+
+Key Takeaway:
+
+Activation should lead directly to adoption.
+
+Confidence:
+High
+
+---
+
+# Research Item 2205
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Adobe Admin Console
+
+Topic:
+Activation Visibility
+
+Observation:
+
+Administrative experiences clearly indicate whether products are available, assigned, and ready for use.
+
+Translation to License Management:
+
+Customers need immediate visibility into readiness.
+
+Examples:
+
+- Ready To Use
+- Requires Activation
+- Action Required
+
+Key Takeaway:
+
+Product availability should be obvious.
+
+Confidence:
+High
+
+---
+
+# Research Item 2206
+
+Source Type:
+Competitive Benchmark
+
+Source:
+Enterprise Software Platforms
+
+Topic:
+First-Time Setup
+
+Observation:
+
+Successful activation experiences reduce customer effort by preconfiguring information when possible.
+
+Translation to License Management:
+
+Examples:
+
+- Pre-associated account
+- Known ownership information
+- Existing organization context
+
+Key Takeaway:
+
+Activation workflows should minimize manual data entry.
+
+Confidence:
+High
+
+---
+
+# Expert Patterns
+
+# Research Item 2301
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Software Licensing
+
+Topic:
+Activation Readiness
+
+Observation:
+
+Customers frequently confuse ownership with activation.
+
+Examples:
+
+Customer owns software but has not activated it.
+
+Customer believes product is unavailable when activation has not been completed.
+
+Key Takeaway:
+
+Clearly distinguish ownership, access, and activation.
+
+Confidence:
+High
+
+---
+
+# Research Item 2302
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Onboarding
+
+Topic:
+Activation Success Criteria
+
+Observation:
+
+Customers need clear confirmation that activation succeeded.
+
+Examples:
+
+Instead of:
+
+Activation Complete
+
+Provide:
+
+Activation Complete
+You can now download and use VMware vSphere.
+
+Key Takeaway:
+
+Every activation should end with a clear success state.
+
+Confidence:
+High
+
+---
+
+# Research Item 2303
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Experience Design
+
+Topic:
+Next Best Action
+
+Observation:
+
+Customers frequently ask:
+
+"What do I do now?"
+
+after activation.
+
+Examples:
+
+- Download Software
+- Assign Users
+- Configure Product
+- View Documentation
+
+Key Takeaway:
+
+Activation should always provide a next step.
+
+Confidence:
+High
+
+---
+
+# Research Item 2304
+
+Source Type:
+Expert Pattern
+
+Source:
+Software Adoption Design
+
+Topic:
+Activation To Adoption
+
+Observation:
+
+Successful activation experiences transition customers directly into product usage.
+
+Pattern:
+
+Activate
+↓
+Verify Success
+↓
+Begin Using Product
+
+Key Takeaway:
+
+Activation is a bridge to product adoption.
+
+Confidence:
+High
+
+---
+
+# Research Item 2305
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise License Management
+
+Topic:
+Activation Failure Recovery
+
+Observation:
+
+Most activation failures are recoverable.
+
+Examples:
+
+- Registration incomplete
+- Email verification outstanding
+- Missing ownership association
+- Provisioning delay
+
+Key Takeaway:
+
+Activation failures should trigger guided recovery workflows.
+
+Confidence:
+High
+
+---
+
+# Research Item 2306
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise UX
+
+Topic:
+Activation Confidence
+
+Observation:
+
+Customers are more comfortable proceeding when the system communicates confidence and completion status.
+
+Examples:
+
+Activation Successful
+
+Activation Pending Verification
+
+Activation Requires Additional Information
+
+Key Takeaway:
+
+Status messaging should reduce uncertainty.
+
+Confidence:
+High
+
+---
+
+# Research Item 2307
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Software Services
+
+Topic:
+License Claiming
+
+Observation:
+
+Customers often struggle to understand how purchased software becomes associated with their account.
+
+Examples:
+
+- Claim License
+- Associate Product
+- Register Ownership
+
+Key Takeaway:
+
+Claiming and activation should be clearly explained.
+
+Confidence:
+High
+
+---
+
+# Research Item 2308
+
+Source Type:
+Expert Pattern
+
+Source:
+Enterprise Customer Support
+
+Topic:
+Activation Support
+
+Observation:
+
+Support requests are reduced when customers can identify activation blockers.
+
+Examples:
+
+- Waiting For Registration
+- Awaiting Approval
+- Provisioning In Progress
+
+Key Takeaway:
+
+Activation blockers should be visible and understandable.
+
+Confidence:
+High
+
+---
+
+# Activation Research Summary
+
+Recurring themes observed across industry research, competitive benchmarks, and expert patterns:
+
+1. Activation status should always be visible.
+
+2. Activation should be guided step-by-step.
+
+3. Customers should not need to remember activation details.
+
+4. Ownership, access, and activation should be treated as separate concepts.
+
+5. Activation workflows should minimize customer effort.
+
+6. Product readiness should be easy to understand.
+
+7. Every activation should end with a clear success state.
+
+8. Activation should always recommend a next action.
+
+9. Activation should transition customers toward product adoption.
+
+10. Activation failures should trigger guided recovery.
+
+11. Customers should understand activation blockers.
+
+12. Activation workflows should reduce uncertainty through clear status communication.
+
+13. The ideal activation pattern is:
+
+Own Product
+↓
+Claim License
+↓
+Activate
+↓
+Verify Success
+↓
+Begin Using Product
+↓
+Manage Ongoing Usage
